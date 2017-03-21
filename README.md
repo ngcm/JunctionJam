@@ -3,9 +3,11 @@ Jam at the junction - can you beat the queues and get the cars past the traffic 
 
 An open source traffic light control game for engagement events with potential for crowd sourcing data. See it in action on [YouTube](https://youtu.be/o_phwO31nIk)
 
+**INSTALLATION GUIDE:** [READ HERE](./INSTALLATION.md).
+
 *Please acknowledge the author and other relevant contributors in any derivative works. Not for commercial use.*   
 *Copyright 2017: [Craig B. Rafter](https://github.com/cbrafter)*   
-*Distributed under GNU GPL-3.0*   
+*Distributed under [GNU GPL-3.0](./LICENSE)*   
 
 ## Description
 A simple crossroads simulated using the [TraCI](http://sumo.dlr.de/wiki/TraCI) [Python](https://www.python.org/) API to the [SUMO](http://www.sumo.dlr.de/) microsimulator. The program maps the keyboard arrow keys to control the direction of the traffic flow using the [Pynput](https://pypi.python.org/pypi/pynput) Python library. The *sumoAPI* included is from the [Traffic Control Test Set](http://tctester.sourceforge.net/).
@@ -32,7 +34,6 @@ System built and tested on:
 
 ## Acknowledgements
 ### Pixel Art:
-
 **Trees:**
 - René Alejandro Hernández [HERE](https://design.tutsplus.com/tutorials/how-to-create-an-isometric-pixel-art-tree-in-adobe-photoshop--cms-23606)
 - User "shimauma" [HERE](https://forum.unity3d.com/threads/pixel-art-how-to-keep-original-sprite-size-in-game.241281/)
