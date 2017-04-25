@@ -3,8 +3,9 @@
         <net-file value="cross.net.xml"/>
         <route-files value="cross.rou.xml"/>
         <gui-settings-file value="gui-settings.cfg"/>
-        <game value="0"/>
+        <game value="1"/>
         <start value="1"/>
+        <quit-on-end value="1"/>
         <!--additional-files value="cross.det.xml"/-->
     </input>
     <output>

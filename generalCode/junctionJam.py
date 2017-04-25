@@ -9,6 +9,7 @@ Code to run the "CrowdTLL" SUMO game.
 import sys
 import os
 import psutil
+import signal
 sys.path.insert(0, '../sumoAPI')
 import sumoConnect
 import readJunctionData
@@ -110,6 +111,9 @@ while True:
     else:
         pass
 
+    # Score message
+    mbox.mbox('Well done! Your score was:\n'+str(endTime)+'s')
+    
     # Clean up
     print("Disconnecting Keylogger")
     keyLogger.stop()
@@ -120,8 +124,10 @@ while True:
     # Close the sumo-gui as it doesn't handle itself
     # https://stackoverflow.com/questions/17856928/how-to-terminate-process-from-python-using-pid
     try:
+        '''
         for process in psutil.process_iter():
             if process.name() == 'sumo-gui':
-                process.terminate()
+                os.kill(process.pid, signal.SIGTERM)
+        '''
     except:
         pass

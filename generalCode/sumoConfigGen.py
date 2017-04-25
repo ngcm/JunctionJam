@@ -19,6 +19,7 @@ def sumoConfigGen(modelname='simpleT', configFile='./models/simpleT.sumocfg',
         <gui-settings-file value="gui-settings.cfg"/>
         <game value="1"/>
         <start value="1"/>
+        <quit-on-end value="1"/>
         <!--additional-files value="{model}.det.xml"/-->
     </input>
     <output>
