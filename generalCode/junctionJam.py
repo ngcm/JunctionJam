@@ -114,7 +114,7 @@ while exitVal:
 
     # Score message
     exitVal = mbox.mbox('Well done! Your score was:\n'+str(endTime)+'s')
-    print(exitVal)
+    # print(exitVal)
     
     # Clean up
     print("Disconnecting Keylogger")
