@@ -61,7 +61,8 @@ simport = 8813  # TraCI connection port
 sumoConfigGen(modelname, configFile, exportPath, stepSize, port=simport)
 
 # Connect to model
-while True:
+exitVal = True
+while exitVal:
     connector = sumoConnect.sumoConnect(model + modelname + ".sumocfg",
                                         gui=True, port=simport)
     connector.launchSumoAndConnect()
@@ -112,7 +113,8 @@ while True:
         pass
 
     # Score message
-    mbox.mbox('Well done! Your score was:\n'+str(endTime)+'s')
+    exitVal = mbox.mbox('Well done! Your score was:\n'+str(endTime)+'s')
+    print(exitVal)
     
     # Clean up
     print("Disconnecting Keylogger")
