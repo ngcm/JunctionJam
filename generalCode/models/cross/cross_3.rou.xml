@@ -1,0 +1,71 @@
+<routes>
+    <vType id="typeOrange" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="25" guiShape="passenger" color="0.832,0.367,0">
+    </vType>
+
+    <vType id="typeYellow" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="25" guiShape="passenger" color="0.9375,0.89,0.258">
+    </vType>
+
+    <vType id="typeBlue" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="25" guiShape="passenger" color="0,0.445,0.695">
+    </vType>
+
+    <vType id="typePurple" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="25" guiShape="passenger" color="0.797,0.473,0.652">
+    </vType>
+
+    <vType id="typeGreen" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="25" guiShape="passenger" color="0,0.617,0.449">
+    </vType>
+
+    <route id="northEast"  edges="1:0 0:2" />
+    <route id="northSouth" edges="1:0 0:3" />
+    <route id="northWest"  edges="1:0 0:4" />
+    <route id="eastNorth"  edges="2:0 0:1" />
+    <route id="eastSouth"  edges="2:0 0:3" />
+    <route id="eastWest"   edges="2:0 0:4" />
+    <route id="southNorth" edges="3:0 0:1" />
+    <route id="southEast"  edges="3:0 0:2" />
+    <route id="southWest"  edges="3:0 0:4" />
+    <route id="westNorth"  edges="4:0 0:1" />
+    <route id="westEast"   edges="4:0 0:2" />
+    <route id="westSouth"  edges="4:0 0:3" />
+    
+    <vehicle id="0" type="typeOrange" route="southWest" depart="1" />
+    <vehicle id="1" type="typePurple" route="eastSouth" depart="4" />
+    <vehicle id="2" type="typeYellow" route="northEast" depart="6" />
+    <vehicle id="3" type="typeBlue" route="eastSouth" depart="7" />
+    <vehicle id="4" type="typeYellow" route="eastWest" depart="9" />
+    <vehicle id="5" type="typeOrange" route="eastNorth" depart="21" />
+    <vehicle id="6" type="typeYellow" route="westEast" depart="21" />
+    <vehicle id="7" type="typeOrange" route="eastNorth" depart="27" />
+    <vehicle id="8" type="typeOrange" route="northSouth" depart="38" />
+    <vehicle id="9" type="typeBlue" route="northSouth" depart="43" />
+    <vehicle id="10" type="typeOrange" route="eastSouth" depart="44" />
+    <vehicle id="11" type="typePurple" route="westSouth" depart="44" />
+    <vehicle id="12" type="typeBlue" route="northSouth" depart="53" />
+    <vehicle id="13" type="typePurple" route="northWest" depart="56" />
+    <vehicle id="14" type="typeYellow" route="southEast" depart="56" />
+    <vehicle id="15" type="typeOrange" route="northEast" depart="58" />
+    <vehicle id="16" type="typeOrange" route="northWest" depart="60" />
+    <vehicle id="17" type="typeYellow" route="southWest" depart="67" />
+    <vehicle id="18" type="typeGreen" route="westEast" depart="67" />
+    <vehicle id="19" type="typeGreen" route="southNorth" depart="68" />
+    <vehicle id="20" type="typeOrange" route="southWest" depart="69" />
+    <vehicle id="21" type="typeGreen" route="eastSouth" depart="71" />
+    <vehicle id="22" type="typeBlue" route="southEast" depart="71" />
+    <vehicle id="23" type="typeOrange" route="northWest" depart="73" />
+    <vehicle id="24" type="typeOrange" route="eastSouth" depart="73" />
+    <vehicle id="25" type="typeYellow" route="westEast" depart="73" />
+    <vehicle id="26" type="typeOrange" route="northSouth" depart="74" />
+    <vehicle id="27" type="typeGreen" route="southEast" depart="75" />
+    <vehicle id="28" type="typeOrange" route="southWest" depart="75" />
+    <vehicle id="29" type="typeGreen" route="eastSouth" depart="76" />
+    <vehicle id="30" type="typeGreen" route="northEast" depart="80" />
+    <vehicle id="31" type="typeGreen" route="southWest" depart="81" />
+    <vehicle id="32" type="typeBlue" route="westEast" depart="81" />
+    <vehicle id="33" type="typePurple" route="southWest" depart="85" />
+    <vehicle id="34" type="typeOrange" route="westEast" depart="85" />
+    <vehicle id="35" type="typeOrange" route="southEast" depart="86" />
+    <vehicle id="36" type="typePurple" route="westNorth" depart="90" />
+    <vehicle id="37" type="typeGreen" route="northWest" depart="92" />
+    <vehicle id="38" type="typePurple" route="eastSouth" depart="93" />
+    <vehicle id="39" type="typeOrange" route="northWest" depart="94" />
+    <vehicle id="40" type="typeBlue" route="northWest" depart="96" />
+</routes>
